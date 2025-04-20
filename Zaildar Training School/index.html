@@ -1047,29 +1047,197 @@
     </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
   </section>
 </section>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZAILDAR Reviews</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <section class="reviews-section">
+
+    <!-- Company Info Box -->
+    <div class="review-box company-review">
+      <img src="https://yt3.googleusercontent.com/2eI1TjX447QZFDe6R32K0V2mjbVMKT5mIfQR-wK5bAsxttS_7qzUDS1ojoSKeSP0NuWd6sl7qQ=s900-c-k-c0x00ffffff-no-rj" alt="Zaildar Logo" class="company-logo">
+      <h2>ZAILDAR TRAINING CENTRE</h2>
+      <div class="stars">★★★★★</div>
+      <p>22 Google reviews</p>
+      <a href="https://www.google.com/maps/place/ZAILDAR+TRANSPORT+TRAINING+CENTRE/@-32.2338724,115.7450479,12z/data=!4m8!3m7!1s0x4ec3dc434e614b97:0x281ea2d8791a220!8m2!3d-32.2338991!4d115.8274491!9m1!1b1!16s%2Fg%2F11v_8kq_96?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3D" class="review-button" target="_blank">
+        Write a review
+      </a>
+    </div>
+
+    <!-- Review 1 -->
+    <div class="review-box review-card">
+      <h4> Ka Dak <img src="https://lh3.googleusercontent.com/a-/ALV-UjWB8TYZ-GCKbyIkZsJ8bOaGOuiubC--D7JxF83ofaD-sn0Sx3k=w36-h36-p-rp-mo-br100" alt="Verified" class="verified"></h4>
+      <div class="date">2024-02-07</div>
+      <div class="stars">★★★★★</div>
+      <p>
+        Sam is very good teacher with lots of patience, kind, understanding and hard working. He has experienced to handle any situation with clam personality. So,  I want to thank him for my class.
+      </p>
+    </div>
+
+    <!-- Review 2 -->
+    <div class="review-box review-card">
+      <h4> Surender Sheokand <img src="https://lh3.googleusercontent.com/a-/ALV-UjV1NRrPdqL6GvHl9HNQzZTpQT6I-z7nbcRPmf9UdXTp1UKK0RK5dw=w36-h36-p-rp-mo-ba4-br100" alt="Verified" class="verified"></h4>
+      <div class="date">2024-02-07</div>
+      <div class="stars">★★★★★</div>
+      <p>
+        Brrilliant trainer, His technique, patience, idea about industry, good teacher, highly recommend his school.
+      </p>
+    </div>
+
+    <!-- Review 3 -->
+    <div class="review-box review-card">
+      <h4> Liam Ziere <img src="https://lh3.googleusercontent.com/a-/ALV-UjVxinsZFJiHPMPW7B_-FnMQ0Zp7R-jwOp0E4Fsvt4MpAu6CN4rn=w36-h36-p-rp-mo-br100" alt="Verified" class="verified"></h4>
+      <div class="date">2024-02-07</div>
+      <div class="stars">★★★★★</div>
+      <p>
+        Very good training, he was clear concise and kind to me. He also puts a-lot of effort into perfecting my driving so I can pass the test.
+      </p>
+    </div>
+
+  </section>
+<br><br><br>
+
+<style>
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.reviews-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.review-box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.company-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.company-review h2 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.stars {
+  color: #fbc02d;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.review-button {
+  background-color: #4285f4;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.review-button:hover {
+  background-color: #3367d6;
+}
+
+.review-card h4 {
+  font-size: 16px;
+  margin: 0 0 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.verified {
+  width: 14px;
+  height: 14px;
+}
+
+.date {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.review-card p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .reviews-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-box {
+    width: 90%;
+  }
+}
+
+
+</style>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
